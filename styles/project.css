@@ -15,7 +15,7 @@ body{
     background-color: white;
 }
 a:focus, a:hover {
-    font-style:italic;
+    font-style: italic;
     color:orangered;
     border: 3px blue;
     border-style: dotted style;
