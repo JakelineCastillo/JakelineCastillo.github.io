@@ -69,14 +69,13 @@ footer{
     clear: both;
     border-top: 2px solid maroon;
 }
-footer p{
+p.fixed{
     text-align: right;
     width: auto;
     float: right;
-    color: black;
     background-color:lightgreen;
     padding: 1em;
     margin: fixed;
-    border-color: darkgreen;
-   
+    border: 2px solid green;
+   margin-top: -50px;
 }
