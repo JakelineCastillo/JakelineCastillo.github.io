@@ -30,10 +30,13 @@ header h2 {
     font-size: 130%;
     color: #800000;
     text-indent: 30px;
-    border-top:2px solid maroon;
+
 }
 header img {
     float: left;
+    width: auto;
+    margin: 0 10px 10px 34px;
+
 }
 .shadow {
     text-shadow: 2px 2px 2px rgb(128, 0, 0);
@@ -72,13 +75,16 @@ footer{
     border-top: 2px solid maroon;
 }
 p.fixed{
-    text-align: right;
+    position: fixed;    
+    right: 20px;
     width: auto;
-    float: right;
     background-color:lightgreen;
-    padding: 1em;
-    margin: fixed;
     border: 2px solid green;
-    margin-top: 5em;
+    padding: 15px 15px;
+    top: 400px;
+  
+   
 
 }
+
+
