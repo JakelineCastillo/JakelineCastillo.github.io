@@ -40,11 +40,14 @@ article{
     column-gap: 2em;
     margin-left: 2em;
 }
+
 article h1{
     color: darkgreen;
-    border-top: 3px solid darkgreen;
-    padding-bottom: 40px;
+    border-top: 3px  solid darkgreen;
+    padding-bottom: 30px;
     column-span: all;
+    margin-top: 10px;
+
 }
 article h2{
     color: darkgreen;
@@ -68,7 +71,7 @@ aside{
     width: auto;
     background-color:lightgreen;
     border: 2px solid green;
-    padding: 15px 15px;
+    padding: 20px 50px;
     top: 400px; 
 }
 aside ol{
@@ -84,4 +87,5 @@ list-style-type: lower-alpha;
 footer{
     text-align: center;
     border-top: 3px solid darkgreen;
+    font-size: 80%;
 }
