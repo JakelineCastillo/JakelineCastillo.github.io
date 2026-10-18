@@ -61,3 +61,20 @@ article p::first-letter{
     font-style: italic;
     color: purple;
 }
+
+aside{
+    position: fixed;    
+    right: 20px;
+    width: auto;
+    background-color:lightgreen;
+    border: 2px solid green;
+    padding: 15px 15px;
+    top: 400px; 
+}
+aside ol{
+    list-style-type: upper-roman;
+}
+footer{
+    text-align: center;
+    border-top: 3px solid darkgreen;
+}
