@@ -74,6 +74,13 @@ aside{
 aside ol{
     list-style-type: upper-roman;
 }
+aside li.square{
+   list-style-type:  square;
+    
+}
+aside li.letter{
+list-style-type: lower-alpha;
+}
 footer{
     text-align: center;
     border-top: 3px solid darkgreen;
