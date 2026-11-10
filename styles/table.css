@@ -69,3 +69,52 @@ table.second thead tr:first-child{
     border-bottom: 2px solid purple; 
 
 } 
+
+/*------------------------------------------------------------*/
+
+table.third {
+
+border-collapse: collapse;
+border-top: 3px solid orangered;
+border-bottom: 3px solid orangered;
+
+
+}
+table.third caption{
+background-color: lightgreen;
+border-top: 3px solid orangered;
+font-weight: bold;
+
+}
+
+table.third th { 
+    border: 2px solid lightgreen;
+    background-color: lightgreen; 
+    border-bottom: 3px solid orangered;
+    padding: 0.7em;
+}
+table.third thead tr:last-child { 
+    border: 2px solid lightgreen; 
+    padding: 0.7em;
+}
+
+
+table.third tr:nth-child{ 
+
+    padding: 0.7em; 
+}
+ table.third td{ 
+    padding: 0.5em;
+    vertical-align: top;
+ }
+
+
+@media only screen and (max-width: 425px) { 
+    th, td { 
+        display: block; 
+    } 
+    thead, td.number { 
+        display: none; 
+        padding: 0; 
+    }     
+} 
