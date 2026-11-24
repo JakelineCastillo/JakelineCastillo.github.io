@@ -51,3 +51,8 @@ textarea {
 #buttons input { 
     width: 10em; 
 } 
+
+button{
+    width: 150px;
+    margin: 0 10px;
+}

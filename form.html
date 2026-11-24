@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Q8</title>
+    <title>Form</title>
+    <link rel="stylesheet" href="styles/form.css">
 </head>
 <body>
     <form action="register_account.html" method="post" id="registration_form"> 
@@ -34,8 +35,8 @@
 
         <input type="password" name="verify" id="verify" required><br> 
 
- </fieldset> 
- <fieldset> 
+    </fieldset> 
+    <fieldset> 
 
         <legend>Member Information</legend> 
 
@@ -80,5 +81,70 @@
             autocomplete="on"><br> 
 
     </fieldset> 
+
+     <fieldset> 
+
+        <legend>Membership Information</legend> 
+
+        <label for="membership">Membership Type:</label> 
+        <select id="membership" name="membership">
+            <option value="junior">Junior</option>
+            <option value="regular">Regular</option>
+            <option value="charter">Charter</option>
+        </select>
+                  
+        <br>
+            
+        <label for="startdate">Starting Date:</label> 
+        <input type="date" name="startdate" id="startdate" required>
+
+        <br> 
+
+        <label for="tickets">Tickets for Guests: </label> 
+        <input type="number" name="tickets" id="tickets" min="1" max="4" value="2">
+
+
+    </fieldset> 
+
+    <fieldset>
+
+        <legend>How Did You Hear About Us?</legend>
+
+        <label for="search">Search engine</label>
+        <input type="checkbox" name="found" id="search" value="search">
+        
+        <br>
+        <label for="social">Social Media</label>
+        <input type="checkbox" name="found" id="social" value="social">
+        <br>
+
+        <label for="emailfound">Email</label>
+        <input type="checkbox" name="found" id="emailfound" value="email">
+        <br>
+        
+        <label for="friend">Friend or colleague</label>
+        <input type="checkbox" name="found" id="friend" value="friend">
+    
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Comments:</legend> 
+        <textarea id="comments"
+            placeholder="If you have any comments, please enter them here."></textarea>
+        
+
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Submit Your Membership</legend>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset Fields</button>
+
+    </fieldset>
+</form>
+
 </body>
 </html>
